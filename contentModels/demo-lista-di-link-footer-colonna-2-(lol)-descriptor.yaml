@@ -1,0 +1,4 @@
+id: 19
+contentType: LOL
+description: Demo lista di link footer colonna 2 (LOL)
+contentShape: "<ul class=\"footer-list link-list clearfix\">\r\n   #foreach ($item in $content.links)   \r\n  <li>\r\n    <a class=\"list-item\" href=\"$item.destination\" title=\"Vai alla pagina: $item.text\" > \r\n        $item.text\r\n    </a>\r\n  </li>\r\n  #end\r\n</ul>"

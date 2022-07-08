@@ -1,0 +1,45 @@
+id: LOG02
+typeCode: LOG
+description: Logo Demo esempio
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Lapam Confartigianato Imprese
+      it: Lapam Confartigianato Imprese
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: Modena e Reggio Emilia
+      it: Modena e Reggio Emilia
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '262'
+        name: lapam_logo.svg
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      symbolicDestination: '#!P;demo_homepage!#'
+      urlDest: null
+      pageDest: demo_homepage
+      contentDest: null
+      destType: 2
+      resourceDest: null
+    values:
+      en: homepage demo
+      it: homepage demo
+    elements: []
+    compositeelements: []
+    listelements: {}

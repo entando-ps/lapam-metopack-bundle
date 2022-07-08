@@ -1,0 +1,4 @@
+id: 502
+contentType: LOG
+description: Demo logo footer (LOG)
+contentShape: "<!--Demo logo footer (LOG)-->\r\n<a href=\"$content.link.destination\">\r\n    <img class=\"icon-footer\" src=\"$content.img.getImagePath('0')\" alt=\"$content.img.text\" title=\"Vai al sito $content.img.text\">\r\n</a>"

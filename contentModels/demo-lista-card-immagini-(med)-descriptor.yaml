@@ -1,0 +1,22 @@
+id: 514
+contentType: MED
+description: Demo lista card immagini (MED)
+contentShape: |
+  <!-- Demo lista card immagini (MED) -->
+  <div class="col-12 col-lg-4">
+      <div class="it-grid-item-wrapper it-grid-item-overlay">
+          <a href="#">
+              <div class="img-responsive-wrapper">
+                  <div class="img-responsive">
+                      <div class="img-wrapper"><img src="$content.img.getImagePath('0')" alt="$content.img.text" title="$content.img.text"></div>
+                  </div>
+              </div>
+              <span class="it-griditem-text-wrapper">
+                  <span class="it-griditem-text">$content.img.text</span>
+                  <svg class="icon">
+                  <use xlink:href="/entando-de-app/cmsresources/demotemplate/img/sprite.svg#it-code-circle"></use>
+                  </svg>
+              </span>
+          </a>
+      </div>
+  </div>

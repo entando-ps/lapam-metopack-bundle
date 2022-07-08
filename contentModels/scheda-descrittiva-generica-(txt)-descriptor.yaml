@@ -1,0 +1,4 @@
+id: 2
+contentType: TXT
+description: Scheda descrittiva generica (TXT)
+contentShape: "<div class=\"row m-4\">   \r\n    <div class=\"col-12\">\r\n        <h1>$content.title.text</h1>\r\n        <figure class=\"figure\">\r\n            <img src=\"$content.img.getImagePath('0')\" class=\"figure-img img-fluid rounded\" alt=\"$content.img.getImagePath('0')\">\r\n            <figcaption class=\"figure-caption\">$content.subtitle.text</figcaption>\r\n        </figure>\r\n        <p class=\"my-3\">$content.body.text</p>\r\n    </div>\r\n</div>\r\n"

@@ -1,0 +1,5 @@
+code: logo
+guiCode: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+
+  <img src="<@wp.resourceURL />entando-hub/img/lapam_logo.svg"/>

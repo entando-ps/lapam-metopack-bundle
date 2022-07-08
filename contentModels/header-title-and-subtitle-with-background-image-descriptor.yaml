@@ -1,0 +1,4 @@
+id: 66
+contentType: HEA
+description: Header title and subtitle with background image
+contentShape: "<section class=\"entando-internal-banner dark\" style=\"background-color: #0054a5; background-image: url($content.image.getImagePath(\"0\"));\">\r\n  <!--contenuto centrale-->\r\n  <div class=\"wrapper-internal\">\r\n    <div class=\"container entando-container\">\r\n      <div class=\"row no-gutters\">\r\n        <div class=\"col-12 central-wrapper\">\r\n          <div\r\n            class=\"writing-box text-center\">\r\n            <h1><p>$content.title.text</p></h1>\r\n            <div class=\"subtitleH1\">\r\n                <p>$content.subtitle.text</p>\r\n            </div>\r\n          </div>\r\n\r\n          <div\r\n            class=\"link-bar text-center\"></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>"

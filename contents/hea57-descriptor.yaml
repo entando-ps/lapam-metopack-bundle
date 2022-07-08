@@ -1,0 +1,31 @@
+id: HEA57
+typeCode: HEA
+description: The Lapam Hub title and subtitle
+mainGroup: free
+groups:
+  - free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: The Lapam Hub
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ullam quasi nam maiores velit, dicta error magnam minima, earum quia ea, omnis ab recusandae aperiam dolorum?'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        correlationCode: '279'
+        name: lapam_hub_bg_720.png
+    elements: []
+    compositeelements: []
+    listelements: {}

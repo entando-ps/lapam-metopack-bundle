@@ -1,0 +1,62 @@
+id: LOL06
+typeCode: LOL
+description: link footer esempio colonna 2
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: link footer esempio colonna 2
+      it: link footer esempio colonna 2
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!U;https://intranet.demo.servizi.it!#'
+          urlDest: 'https://intranet.demo.servizi.it'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 1
+          it: Esempio link 1
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.comlog.demo.servizi.it!#'
+          urlDest: 'http://www.comlog.demo.servizi.it'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 2
+          it: Esempio link 2
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;https://intranet.demo.servizi.it/it/centro_servizi.page!#'
+          urlDest: 'https://intranet.demo.servizi.it/it/centro_servizi.page'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 3
+          it: Esempio link 3
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}

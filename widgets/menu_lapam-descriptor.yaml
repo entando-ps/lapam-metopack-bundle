@@ -1,0 +1,31 @@
+code: menu_lapam
+titles:
+  en: Menu Lapam
+  it: Menu Lapam
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+
+               <ul class="navbar-nav mr-auto entando-navbar-menu">
+                  <li class="nav-link active" padre="">
+                     <a href="<@wp.url page="demo_homepage" />" class="nav-link no-son-page 1" />
+                     <span> <i class="icon-home"></i> Demo home </span>
+                     </a>
+                  </li>
+                  <li class="nav-link" padre="">
+                     <a href="<@wp.url page="demo_docs" />" class="nav-link no-son-page 1" />
+                     <span> Documenti </span>
+                     </a>
+                  </li>
+                  <li class="nav-link" padre="">
+                     <a href="<@wp.url page="demo_avvisi" />" class="nav-link no-son-page 1" />
+                     <span> Avvisi </span>
+                     </a>
+                  </li>
+   <li class="nav-item d-lg-none d-xl-none">
+                                                      <a class="nav-link" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action">
+                                                      Esci
+                                                      </a>
+                                                  </li>
+
+               </ul>

@@ -1,0 +1,18 @@
+.tkrad-elevator {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tkrad-menu-content {
+ width: max-content;
+ background-color: lightgrey;
+ opacity: 0.8;
+ position: absolute;
+ z-index: 10;
+}
+.tkrad-menu-cascade, .tkrad-menu-item {
+ cursor: pointer;
+ display: block;
+ margin: 5px;
+}
+.tkrad-menu-hidden {
+ display: none;
+}

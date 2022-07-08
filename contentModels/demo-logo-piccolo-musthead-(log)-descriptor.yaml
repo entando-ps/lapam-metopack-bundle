@@ -1,0 +1,6 @@
+id: 501
+contentType: LOG
+description: Demo Logo piccolo musthead (LOG)
+contentShape: |2-
+   <!--Demo Logo piccolo musthead (LOG) -->
+  <img class="demo-logo"  src="$content.img.getImagePath('0')" alt="$content.img.text" >

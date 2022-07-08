@@ -49,7 +49,6 @@ components:
     - fragments/search_result-descriptor.yaml
   pages:
     - pages/homepage-descriptor.yaml
-    - pages/demo_homepage-descriptor.yaml
     - pages/lapam_metopack_tkmastrini-descriptor.yaml
     - pages/lapam_metopack_report-descriptor.yaml
     - pages/lapam_metopack_keycloack_manag-descriptor.yaml

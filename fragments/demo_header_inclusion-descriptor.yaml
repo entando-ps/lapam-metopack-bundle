@@ -1,0 +1,13 @@
+code: demo_header_inclusion
+guiCode: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+
+  <link rel="stylesheet" href="<@wp.resourceURL />demotemplate/css/bootstrap-italia.min.css" media="screen" />
+  <link rel="stylesheet" href="<@wp.resourceURL />demotemplate/css/custom.css" />
+  <link rel="stylesheet" href="<@wp.resourceURL />demotemplate/css/media-queries.css" rel="stylesheet">
+  <script nonce="<@wp.cspNonce />">window.__PUBLIC_PATH__ = '<@wp.resourceURL />demotemplate/fonts'</script>
+
+  <link rel="icon" href="<@wp.resourceURL />demotemplate/img/favicon.ico"/>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />demotemplate/js/jquery-3.3.1.min.js"></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />demotemplate/js/custom_js.js"></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />demotemplate/js/fa.js"></script>

@@ -1,0 +1,4 @@
+id: 612
+contentType: CRD
+description: Demo card slider (CRD)
+contentShape: "<!--Demo card slider (CRD)-->\r\n<div class=\"item\">\r\n  <img src=\"$content.img.getImagePath(\"0\")\" title=\"$content.img.text\" alt=\"$content.img.text\">\r\n  <a class=\"demo-caption\" href=\"$content.getContentOnPageLink(\"demo_dettaglio\")&modelId=510 \"> $content.title.text</a>\r\n</div>\r\n\r\n \r\n"

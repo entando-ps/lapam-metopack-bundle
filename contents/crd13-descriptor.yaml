@@ -1,0 +1,120 @@
+id: CRD13
+typeCode: CRD
+description: Prenotazione tampone
+mainGroup: free
+status: PUBLIC
+categories:
+  - demo-docs-es
+attributes:
+  - code: Evidenza
+    value: false
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: Prenotazione servizio
+      it: Prenotazione servizio
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '06'
+        name: car5.jpg
+      it:
+        correlationCode: '06'
+        name: car5.jpg
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      symbolicDestination: '#!!#'
+      urlDest: null
+      pageDest: null
+      contentDest: null
+      destType: 0
+      resourceDest: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: expDate
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attachs
+    value: null
+    values: {}
+    elements:
+      - code: attachs
+        value: null
+        values:
+          en:
+            correlationCode: '07'
+            name: doc01180220201014090208.pdf
+          it:
+            correlationCode: '07'
+            name: doc01180220201014090208.pdf
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: lists
+    value: null
+    values: {}
+    elements:
+      - code: lists
+        value: null
+        values:
+          en:
+            correlationCode: '06'
+            name: car5.jpg
+          it:
+            correlationCode: '06'
+            name: car5.jpg
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: ufficio
+    value: null
+    values:
+      en: Ufficio Abilitazioni
+      it: Ufficio Abilitazioni
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: abstract
+    value: null
+    values:
+      en: |
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga</p>
+      it: |
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: date
+    value: '2021-10-27 00:00:00'
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: Prenotazione servizio
+      it: Prenotazione servizio
+    elements: []
+    compositeelements: []
+    listelements: {}

@@ -1,0 +1,12 @@
+code: demo_search
+titles:
+  en: demosearch
+  it: democerca
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <form class="form-inline d-sm-none d-md-block d-lg-block " action="<#if (searchResultPageVar??) ><@wp.url page="${searchResultPageVar.code}" /></#if>" method="get">
+  <div class="input-group">
+      <input class="form-control  py-2 border-right-0 " type="text" name="search" placeholder="<@wp.i18n key="ESSF_SEARCH" />"   />
+  </div>
+  </form>

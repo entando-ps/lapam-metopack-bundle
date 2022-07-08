@@ -1,0 +1,48 @@
+id: AVV16
+typeCode: AVV
+description: Avviso esempio
+mainGroup: free
+status: PUBLIC
+categories:
+  - demo-avv-es
+attributes:
+  - code: body
+    value: null
+    values:
+      en: |
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+      it: |
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attach
+    value: null
+    values:
+      en:
+        correlationCode: '07'
+        name: doc01180220201014090208.pdf
+      it:
+        correlationCode: '07'
+        name: doc01180220201014090208.pdf
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body2
+    value: null
+    values:
+      en: |
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+      it: |
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: Avviso ai nuovi utenti
+      it: Avviso ai nuovi utenti
+    elements: []
+    compositeelements: []
+    listelements: {}

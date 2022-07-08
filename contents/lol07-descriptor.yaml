@@ -1,0 +1,62 @@
+id: LOL07
+typeCode: LOL
+description: link footer esempio colonna 3
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: link footer esempio colonna 3
+      it: link footer esempio colonna 3
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!U;https://archimede.servizi.it!#'
+          urlDest: 'https://archimede.servizi.it'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 1
+          it: Esempio link 1
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;https://noipa.mef.gov.it!#'
+          urlDest: 'https://noipa.mef.gov.it'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 2
+          it: Esempio link 2
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;https://ei.mail.demo.servizi.it!#'
+          urlDest: 'https://ei.mail.demo.servizi.it'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 3
+          it: Esempio link 3
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}

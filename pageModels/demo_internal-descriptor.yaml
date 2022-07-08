@@ -1,0 +1,391 @@
+code: demo_internal
+description: Demo modello pagine interne
+configuration:
+  frames:
+    - pos: 0
+      description: Logo musthead frame 0
+      mainFrame: false
+      defaultWidget:
+        code: demo_logo
+        properties: null
+      sketch:
+        x1: 0
+        y1: 0
+        x2: 2
+        y2: 0
+    - pos: 1
+      description: Accesso keycloack frame 1
+      mainFrame: false
+      defaultWidget:
+        code: demo_login
+        properties: null
+      sketch:
+        x1: 9
+        y1: 0
+        x2: 11
+        y2: 0
+    - pos: 2
+      description: Logo + Nome Compagnia frame 2
+      mainFrame: false
+      defaultWidget:
+        code: demo_header_logo
+        properties: null
+      sketch:
+        x1: 0
+        y1: 1
+        x2: 3
+        y2: 1
+    - pos: 3
+      description: Barra ricerca frame 3
+      mainFrame: false
+      defaultWidget:
+        code: demo_search
+        properties: null
+      sketch:
+        x1: 8
+        y1: 1
+        x2: 11
+        y2: 1
+    - pos: 4
+      description: Navigazione frame 4
+      mainFrame: false
+      defaultWidget:
+        code: demo_menu_es
+        properties: null
+      sketch:
+        x1: 0
+        y1: 2
+        x2: 11
+        y2: 2
+    - pos: 5
+      description: frame 5
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 3
+        x2: 9
+        y2: 3
+    - pos: 6
+      description: Avvisi per utenti 6
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 4
+        x2: 9
+        y2: 4
+    - pos: 7
+      description: Frame 7
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 5
+        x2: 9
+        y2: 5
+    - pos: 8
+      description: Frame 8
+      mainFrame: true
+      sketch:
+        x1: 2
+        y1: 6
+        x2: 9
+        y2: 6
+    - pos: 9
+      description: Frame 9
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 7
+        x2: 9
+        y2: 7
+    - pos: 10
+      description: Frame 10
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 8
+        x2: 9
+        y2: 8
+    - pos: 11
+      description: Frame 11
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 9
+        x2: 5
+        y2: 9
+    - pos: 12
+      description: Frame 12
+      mainFrame: false
+      sketch:
+        x1: 6
+        y1: 9
+        x2: 9
+        y2: 9
+    - pos: 13
+      description: Frame 13
+      mainFrame: false
+      sketch:
+        x1: 2
+        y1: 10
+        x2: 9
+        y2: 10
+    - pos: 14
+      description: publish a footer logo frame 14
+      mainFrame: false
+      defaultWidget:
+        code: demo_logo_ft1
+        properties: null
+      sketch:
+        x1: 1
+        y1: 11
+        x2: 1
+        y2: 11
+    - pos: 15
+      description: publish a footer logo frame 15
+      mainFrame: false
+      defaultWidget:
+        code: demo_logo_ft2
+        properties: null
+      sketch:
+        x1: 1
+        y1: 12
+        x2: 1
+        y2: 12
+    - pos: 16
+      description: Footer links colonna 1
+      mainFrame: false
+      defaultWidget:
+        code: demo_footer_1
+        properties: null
+      sketch:
+        x1: 2
+        y1: 11
+        x2: 4
+        y2: 12
+    - pos: 17
+      description: Footer links colonna 2
+      mainFrame: false
+      defaultWidget:
+        code: demo_footer_2
+        properties: null
+      sketch:
+        x1: 5
+        y1: 11
+        x2: 7
+        y2: 12
+    - pos: 18
+      description: Footer links colonna 3
+      mainFrame: false
+      defaultWidget:
+        code: demo_footer_3
+        properties: null
+      sketch:
+        x1: 8
+        y1: 11
+        x2: 10
+        y2: 12
+template: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
+
+  <html>
+      <head>
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" charset="utf-8"  pageEncoding="UTF-8" />
+          <title>
+              <@wp.i18n  key="DEMO_PORT_ES_TITLE" /> - <@wp.currentPage param="title" />
+          </title>
+          <@wp.fragment code="demo_header_inclusion" escapeXml=false />
+        <@wp.fragment code="keycloak_auth" escapeXml=false />
+      </head>
+      <body>
+          <div class="it-header-wrapper">
+              <div class="it-header-slim-wrapper" >
+                  <div class="containers">
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="it-header-slim-wrapper-content">
+                                  <a class="d-none d-lg-block navbar-brand" href="https://intranet.demo.servizi.it/" target="_blank">
+                                      <@wp.show frame=0 />
+                                  </a>
+                                  <div class="nav-mobile">
+                                  </div>
+                                  <div class="header-slim-right-zone">
+                                      <div class="nav-item dropdown"></div>
+
+                                      <div class="it-access-top-wrapper">
+                                          <@wp.show frame=1 /> 
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="menu-mobile" class="it-nav-wrapper">
+                  <div class="it-header-center-wrapper sfondo_header">
+                      <div class="containers margine_sx_logo">
+                          <div class="row">
+                              <div class="col-12">
+                                  <div class="it-header-center-content-wrapper">
+                                      <div class="it-brand-wrapper">
+                                          <@wp.show frame=2 />
+                                      </div>
+                                      <div>
+                                          <@wp.show frame=3 />  
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div id="menu" class="it-header-navbar-wrapper ">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-12">
+                                  <!--start nav-->
+                                  <nav class="navbar navbar-expand-lg has-megamenu">
+                                      <a class="custom-navbar-toggler" type="button" aria-controls="nav100" aria-expanded="false" aria-label="Toggle navigation" data-target="#nav100">
+                                          <svg class="icon">
+                                          <use xlink:href="<@wp.resourceURL />demotemplate/img/sprite.svg#it-burger"></use>
+                                          </svg>
+                                      </a>
+                                      <div class="navbar-collapsable" id="nav100" style="display: none;">
+                                          <div class="overlay" style="display: none;">
+                                          </div>
+
+                                          <div class="close-div sr-only">
+                                              <button class="btn close-menu " type="button">
+                                                  <span class="it-close"></span>
+                                                  close
+                                              </button>
+                                          </div>
+
+                                          <div class="menu-wrapper ">
+                                              <div class="close-div">
+                                                  <button class="btn close-menu close-menu-custom" type="button">
+                                                      <i class="fa fa-times fa-4x"></i>
+                                                  </button>
+                                              </div>
+
+                                              <div class="close-div close-div-custom">
+                                                  <button class="btn close-menu" type="button">
+                                                      <svg class="icon">
+                                                      <use href="<@wp.resourceURL />demotemplate/img/sprite.svg#it-close"></use>
+                                                      </svg>
+                                                      <span class="it-close">Chiudi</span>
+                                                  </button>
+                                              </div>
+                                              <ul class="navbar-nav">
+                                                  <div class="d-none d-xs-block d-sm-block d-lg-none">
+                                                      <div class="custom-box">
+                                                          <#if (Session.currentUser.username != "guest") >  
+                                                          <svg class="icon icon-lg icon-custom">
+                                                          <use xlink:href="<@wp.resourceURL />demotemplate/img/sprite.svg#it-user"></use>
+                                                          </svg>
+
+                                                          <div class="user-logged">
+                                                              <#if (Session.currentUser.profile??) && (Session.currentUser.profile.displayName??)>
+                                                              ${Session.currentUser.profile.displayName}
+                                                              <#else>
+                                                              ${Session.currentUser}
+                                                              </#if>
+                                                          </div>
+                                                          <#else>
+
+                                                          <form action="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/login" method="get" >
+                                                                <input type="hidden" name="redirectTo" value="<@wp.url/>" />
+                                                              <input type="submit" value="Accedi" class="btn btn-primary " />
+                                                          </form>
+                                                          </#if>
+                                                      </div>
+
+                                                  </div>
+                                                  <@wp.show frame=4 /> 
+                                                  <li class="nav-item d-lg-none d-xl-none">
+                                                      <a class="nav-link" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action">
+                                                         Esci
+                                                  </a>
+                                              </li>
+                                          </ul>
+
+                                      </div>
+
+                                  </div>
+                              </nav>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+          <@wp.show frame=5 />
+          <@wp.show frame=6 />
+          <@wp.show frame=7 />
+          
+          <div class="container container-flex">
+          
+        
+          <@wp.show frame=8 />
+          <@wp.show frame=9 />
+          <@wp.show frame=10 />
+          <div class="row no-gutters">
+              <div class="col-12 col-md-6">
+                  <@wp.show frame=11 />
+              </div>
+              <div class="col-12 col-md-6">
+                  <@wp.show frame=12 />
+              </div>
+          </div>
+          <@wp.show frame=13 />
+      </div>
+      <div class="it-footer-main mt-5">
+          <div class="army-border"></div>
+          <div class="container">
+              <section>
+                  <div class="row">
+                      <div class="col-lg-3 col-sm-12">
+                          <div class="link-list-wrapper">
+                              <div class="it-brand-wrapper">
+
+                                  <@wp.show frame=14 /> 
+                                  <@wp.show frame=15 /> 
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-3  col-sm-6 mt-5">
+                          <div class="link-list-wrapper">
+                              <@wp.show frame=16 /> 
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 mt-5">
+                          <div class="link-list-wrapper">
+                              <@wp.show frame=17 /> 
+                          </div>
+                      </div>
+                      <div class="col-lg-3  col-sm-6 mt-5">
+                          <div class="link-list-wrapper">
+                              <@wp.show frame=18 /> 
+                          </div>
+                      </div>
+                     
+                  </div>
+              </section>
+              <section class="py-4 border-white border-top">
+                  <div class="row footer-bottom-links">
+                      <!--   <a href="http://www.something.servizi.it/" title="Vai alla pagina: something">something</a> -->
+                  </div>
+              </section>
+          </div>
+      </div>
+
+      <a href="#" data-attribute="return-to-top" class="return-to-top">
+          <i class="it-collapse"></i>
+          <span class="sr-only">Collapse</span>
+      </a>
+
+      <div class="overlay"></div>
+      <@wp.fragment code="demo_footer_inclusion" escapeXml=false />          
+  </body>
+  </html>

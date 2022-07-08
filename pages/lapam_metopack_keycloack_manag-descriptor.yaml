@@ -1,0 +1,65 @@
+code: lapam_metopack_keycloack_manag
+parentCode: homepage
+titles:
+  en: Lapam metopack Keycloack manager
+  it: Lapam metopack Keycloack manager
+pageModel: demo_home
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf8
+status: published
+widgets:
+  - code: demo_login
+    config: null
+    pos: 1
+  - code: demo_header_logo
+    config:
+      modelId: '511'
+      contentDescription: Logo esempio
+      chosenContentType: (code=LOG;name=Demo Loghi  (LOG);status=0;attributes=(0=(code=title;type=Text;name=Nome compagnia;names=(en=Division name;it=Nome compagnia);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);1=(code=subtitle;type=Text;name=Motto Compagnia;names=(en=Division motto;it=Motto Compagnia);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);2=(code=img;type=Image;name=Immagine;names=(en=Image;it=Immagine);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);3=(code=link;type=Link;name=Link;names=(en=Link;it=Link);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null));defaultContentModel=null;defaultContentModelList=null;viewPage=null)
+      ownerGroup: free
+      contentId: LOG02
+    pos: 2
+  - code: demo_search
+    config: null
+    pos: 3
+  - code: navigation-menu
+    config:
+      navSpec: code(demo_homepage) + code(demo_docs) + code(demo_avvisi)
+    pos: 4
+  - code: lapam-kc-manager
+    config: null
+    pos: 9
+  - code: demo_logo_ft1
+    config:
+      modelId: '502'
+      contentDescription: Logo demo footer
+      chosenContentType: (code=LOG;name=Demo Loghi  (LOG);status=0;attributes=(0=(code=title;type=Text;name=Nome compagnia;names=(en=Division name;it=Nome compagnia);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);1=(code=subtitle;type=Text;name=Motto Compagnia;names=(en=Division motto;it=Motto Compagnia);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);2=(code=img;type=Image;name=Immagine;names=(en=Image;it=Immagine);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);3=(code=link;type=Link;name=Link;names=(en=Link;it=Link);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null));defaultContentModel=null;defaultContentModelList=null;viewPage=null)
+      ownerGroup: free
+      contentId: LOG03
+    pos: 14
+  - code: demo_logo_ft2
+    config:
+      modelId: '502'
+      contentDescription: Logo agid
+      chosenContentType: (code=LOG;name=Demo Loghi  (LOG);status=0;attributes=(0=(code=title;type=Text;name=Nome compagnia;names=(en=Division name;it=Nome compagnia);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);1=(code=subtitle;type=Text;name=Motto Compagnia;names=(en=Division motto;it=Motto Compagnia);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);2=(code=img;type=Image;name=Immagine;names=(en=Image;it=Immagine);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null);3=(code=link;type=Link;name=Link;names=(en=Link;it=Link);roles=;disablingCodes=;mandatory=false;listFilter=false;indexable=false;enumeratorStaticItems=null;enumeratorStaticItemsSeparator=null;enumeratorExtractorBean=null;validationRules=(minLength=null;maxLength=null;regex=null;rangeStartString=null;rangeEndString=null;rangeStartStringAttribute=null;rangeEndStringAttribute=null;equalString=null;equalStringAttribute=null;rangeStartDate=null;rangeEndDate=null;rangeStartDateAttribute=null;rangeEndDateAttribute=null;equalDate=null;equalDateAttribute=null;rangeStartNumber=null;rangeStartNumberAttribute=null;rangeEndNumber=null;rangeEndNumberAttribute=null;equalNumber=null;equalNumberAttribute=null;ognlValidation=null);nestedAttribute=null;compositeAttributes=null));defaultContentModel=null;defaultContentModelList=null;viewPage=null)
+      ownerGroup: free
+      contentId: LOG04
+    pos: 15
+  - code: demo_footer_2
+    config:
+      modelId: '513'
+      contentId: LOL06
+    pos: 16
+  - code: demo_footer_1
+    config:
+      modelId: '19'
+      contentId: LOL05
+    pos: 17
+  - code: demo_footer_3
+    config:
+      modelId: '513'
+      contentId: LOL07
+    pos: 18

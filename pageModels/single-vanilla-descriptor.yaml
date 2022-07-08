@@ -1,0 +1,13 @@
+code: single-vanilla
+description: single-vanilla
+configuration:
+  frames:
+    - pos: 0
+      description: Sample Frame
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 0
+        x2: 11
+        y2: 1
+template: "<#assign wp=JspTaglibs[\"/aps-core\"]>\n<@wp.info key=\"systemParam\" paramName=\"applicationBaseURL\" var=\"appUrl\" />\n  \n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">\n<html>\n<head>\n\t<title><@wp.currentPage param=\"title\" /></title>\n    <link rel=\"icon\" href=\"${appUrl}favicon.png\" type=\"image/png\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/entando-de-app/cmsresources/ent-lapam-metopack/static/css/bootstrap.css\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/entando-de-app/cmsresources/ent-lapam-metopack/static/css/tkrad.css\">\n    <link rel=\"stylesheet\" href=\"/entando-de-app/cmsresources/ent-lapam-metopack/static/css/treeview.css\"/>\n    <link rel=\"stylesheet\" href=\"/entando-de-app/cmsresources/ent-lapam-metopack/static/css/dropdown.css\"/>\n    <link rel=\"stylesheet\" href=\"/entando-de-app/cmsresources/ent-lapam-metopack/static/css/materialdesignicons.css\"/>\n    <@wp.fragment code=\"keycloak_auth\" escapeXml=false />\n</head>\n<body>\n<div><@wp.show frame=0 /></div>\n</body>\n</html>"

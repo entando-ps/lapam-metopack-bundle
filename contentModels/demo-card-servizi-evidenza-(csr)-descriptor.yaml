@@ -1,0 +1,4 @@
+id: 505
+contentType: CSR
+description: Demo card servizi evidenza (CSR)
+contentShape: "<!-- Demo card servizi in evidenza  (CSR)-->\r\n<div class=\"col-12 col-custom-20 col-sm-6 card-services-wrapper \">\r\n    <div class=\"card-wrapper card-services\">\r\n        <a href=\"$content.link.destination\" >\r\n            <div class=\"service-img\">                             \r\n                <img class=\"partnerLogo\" src=\"$content.img.getImagePath(\"0\")\" title=\"$content.title.text\" alt=\"$content.title.text\">           \r\n            </div>\r\n            <p class=\"service-title\">\r\n                $content.title.text\r\n            </p>\r\n        </a>\r\n    </div>\r\n</div>"

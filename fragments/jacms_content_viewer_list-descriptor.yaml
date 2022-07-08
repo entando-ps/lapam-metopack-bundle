@@ -1,0 +1,47 @@
+code: jacms_content_viewer_list
+guiCode: |-
+  <#assign jacms=JspTaglibs["/jacms-aps-core"]>
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <@jacms.contentList listName="contentList" titleVar="titleVar"pageLinkVar="pageLinkVar" pageLinkDescriptionVar="pageLinkDescriptionVar" userFilterOptionsVar="userFilterOptionsVar" />
+  <div class="row lista-contenuti ">
+      <div class="col-12">
+          <div class="my-3 p18"> 
+              <#if (titleVar??)> 
+              <h4 class="section-title">
+                  ${titleVar}
+              </h4>    
+              </#if>
+              <@wp.freemarkerTemplateParameter var="userFilterOptionsVar" valueName="userFilterOptionsVar" removeOnEndTag=true > 
+              <@wp.fragment code="jacms_content_viewer_list_userfilters" escapeXml=false /> 
+              </@wp.freemarkerTemplateParameter> 
+              <div class="row">   
+                  <#if (contentList??) && (contentList?has_content) && (contentList?size > 0)> 
+                  <@wp.pager listName="contentList" objectName="groupContent" pagerIdFromFrame=true advanced=true offset=5>  
+                  <@wp.freemarkerTemplateParameter var="group" valueName="groupContent" removeOnEndTag=true >  
+                  <#list contentList as contentId> 
+                  <#if (contentId_index >= groupContent.begin) && (contentId_index <= groupContent.end)>  
+                  <@jacms.content contentId="${contentId}" />   
+                  </#if> 
+                  </#list>  
+                  <div class="col-md-12 text-center">   
+                      <@wp.fragment code="demo_pager_block" escapeXml=false />   
+                      </@wp.freemarkerTemplateParameter> 
+                      </@wp.pager>   
+                  </div>  
+                  <#else>   
+                  <p class="alert alert-info">
+                      <@wp.i18n key="LIST_VIEWER_EMPTY" lang="it" />
+                  </p> 
+                  </#if>  
+              </div> 
+              <#if (pageLinkVar??) && (pageLinkDescriptionVar??)> 
+              <p class="text-right">  
+                  <a class="btn  btn-army" href="<@wp.url page="${pageLinkVar}"/>">
+                     ${pageLinkDescriptionVar}  <i class="fas fa-arrow-right"></i>
+                    </a> 
+              </p>  
+              </#if>  
+              <#assign contentList="">
+          </div>
+      </div>
+  </div>

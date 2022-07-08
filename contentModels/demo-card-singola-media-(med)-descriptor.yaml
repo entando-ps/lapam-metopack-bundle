@@ -1,0 +1,20 @@
+id: 518
+contentType: MED
+description: Demo card singola media (MED)
+contentShape: |-
+  <!--Demo card singola media (MED)-->
+  <div class="col-12">
+      <!--grid item 1-->
+      <div class="it-grid-item-wrapper">
+          <a href="$content.link.destination">
+              
+              <div class="img-responsive-wrapper">
+                  <div class="img-responsive">
+                      <div class="img-wrapper">
+                          <img src="$content.img.getImagePath('0')" title="$content.img.text" alt="$content.img.text">
+                      </div>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </div>

@@ -1,0 +1,62 @@
+id: LOL05
+typeCode: LOL
+description: link footer esempio colonna 1
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values:
+      en: link footer esempio colonna 1
+      it: link footer esempio colonna 1
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!U;https://www.comc4.demo.servizi.it!#'
+          urlDest: 'https://www.comc4.demo.servizi.it'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 1
+          it: Esempio link 1
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;https://intranet.demo.servizi.it/it/siti_regionali.page!#'
+          urlDest: 'https://intranet.demo.servizi.it/it/siti_regionali.page'
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 2
+          it: Esempio link 2
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;www.elenchiinlinea.demo.servizi.it!#'
+          urlDest: www.elenchiinlinea.demo.servizi.it
+          pageDest: null
+          contentDest: null
+          destType: 1
+          resourceDest: null
+        values:
+          en: Esempio link 3
+          it: Esempio link 3
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}

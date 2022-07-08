@@ -1,0 +1,15 @@
+- code: demo-avv-es
+  parentCode: home
+  titles:
+    en: Comunicazione urgente
+    it: Comunicazione urgente
+- code: demo-coms-es
+  parentCode: home
+  titles:
+    en: Avvisi
+    it: Avvisi
+- code: demo-docs-es
+  parentCode: home
+  titles:
+    en: Esempio documenti
+    it: Esempio documenti

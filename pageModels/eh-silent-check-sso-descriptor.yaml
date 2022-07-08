@@ -1,0 +1,21 @@
+code: eh-silent-check-sso
+description: Hub Silent Check SSO
+configuration:
+  frames:
+    - pos: 0
+      description: Frame
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 0
+        x2: 11
+        y2: 0
+template: |-
+  <#assign wp=JspTaglibs[ "/aps-core"]>
+  <html>
+  <body>
+  <script nonce="<@wp.cspNonce />">
+      parent.postMessage(location.href, location.origin)
+  </script>
+  </body>
+  </html>

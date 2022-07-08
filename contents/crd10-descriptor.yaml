@@ -1,0 +1,96 @@
+id: CRD10
+typeCode: CRD
+description: Numero unico di prenotazione per il personale in servizio
+mainGroup: free
+status: PUBLIC
+categories:
+  - demo-coms-es
+attributes:
+  - code: Evidenza
+    value: false
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+      it: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '05'
+        name: logo_3x.jpg
+      it:
+        correlationCode: '05'
+        name: logo_3x.jpg
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      symbolicDestination: '#!!#'
+      urlDest: null
+      pageDest: null
+      contentDest: null
+      destType: 0
+      resourceDest: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: expDate
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attachs
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: lists
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: ufficio
+    value: null
+    values:
+      en: CUP
+      it: CUP
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: abstract
+    value: null
+    values:
+      en: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      it: |
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: date
+    value: '2021-10-27 00:00:00'
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+      it: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+    elements: []
+    compositeelements: []
+    listelements: {}

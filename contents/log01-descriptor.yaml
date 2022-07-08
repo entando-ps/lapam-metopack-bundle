@@ -1,0 +1,39 @@
+id: LOG01
+typeCode: LOG
+description: piccolo logo demo musthead
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '277'
+        name: Servizi-Digitali-bluRisorsa-7.png
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      symbolicDestination: '#!!#'
+      urlDest: null
+      pageDest: null
+      contentDest: null
+      destType: 0
+      resourceDest: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}

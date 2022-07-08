@@ -1,0 +1,4 @@
+id: 615
+contentType: CRD
+description: Demo risultato per lista (CRD)
+contentShape: "<!--Demo risultato per lista (CRD)-->\r\n<ul class=\"it-list\">\r\n    <li>\r\n        <a href=\"$content.getContentOnPageLink(\"demo_dettaglio\")&modelId=509\">\r\n            <div class=\"it-right-zone\">\r\n                <span class=\"text\"> $contentCategory.title -  #foreach ($contentCategory in $content.getCategories()) $contentCategory.title #end\r\n                    <em>$content.abstract.text</em>\r\n                </span>\r\n\r\n            </div>\r\n        </a>\r\n    </li>\r\n</ul>"

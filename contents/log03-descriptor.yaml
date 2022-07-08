@@ -1,0 +1,41 @@
+id: LOG03
+typeCode: LOG
+description: Logo demo footer
+mainGroup: free
+status: PUBLIC
+attributes:
+  - code: title
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        correlationCode: '270'
+        name: lapam_logo_monochrome_white.svg
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: link
+    value:
+      symbolicDestination: '#!U;http://www.demo.servizi.it/!#'
+      urlDest: 'http://www.demo.servizi.it/'
+      pageDest: null
+      contentDest: null
+      destType: 1
+      resourceDest: null
+    values:
+      en: Sezione intranet
+      it: Sezione intranet
+    elements: []
+    compositeelements: []
+    listelements: {}

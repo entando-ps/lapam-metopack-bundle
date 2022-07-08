@@ -1,0 +1,21 @@
+code: hero_unit
+titles:
+  en: Hero unit
+  it: Hero unit
+group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <div class="it-hero-wrapper it-text-centered">
+     <div class="container">
+        <div class="row">
+           <div class="col-12">
+              <div class="it-hero-text-wrapper bg-dark">
+                 <span class="it-category"></span>
+                 <h1></h1>
+                 <p class="d-none d-lg-block"></p>
+                 <div class="it-btn-container"><a class="btn btn-hero btn-sm btn-outline-primary" href="<@wp.url page="lapam_metopack_kc_manager" />">Label button</a><a class="btn btn-hero btn-sm btn-outline-primary" href="<@wp.url page="test" />">Label button</a><a class="btn btn-hero btn-sm btn-outline-primary" href="<@wp.url page="lapam_metopack" />">Label button</a></div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
